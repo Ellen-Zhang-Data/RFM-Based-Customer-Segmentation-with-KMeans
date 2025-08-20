@@ -3,7 +3,7 @@
 ## 📖 Project Overview
 This project applies **RFM (Recency, Frequency, Monetary) analysis** combined with **K-Means clustering** to segment customers into meaningful groups based on their purchasing behavior.  
 By identifying high-value, at-risk, and hesitant customers, the project enables **data-driven marketing strategies** that improve targeting efficiency.  
-In fact, this segmentation approach demonstrated the potential for **improved retention targeting by 25%**, helping businesses reduce churn and increase customer lifetime value (CLV).
+✅In fact, this segmentation approach demonstrated the potential for **improved retention targeting by 25%**, helping businesses reduce churn and increase customer lifetime value (CLV).
 
 ## ⚙️ Methodology
 
