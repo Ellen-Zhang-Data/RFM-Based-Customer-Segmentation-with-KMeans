@@ -5,8 +5,6 @@ This project applies **RFM (Recency, Frequency, Monetary) analysis** combined wi
 By identifying high-value, at-risk, and hesitant customers, the project enables **data-driven marketing strategies** that improve targeting efficiency.  
 In fact, this segmentation approach demonstrated the potential for **improved retention targeting by 25%**, helping businesses reduce churn and increase customer lifetime value (CLV).
 
----
-
 ## ⚙️ Methodology
 
 ### 1. RFM Analysis
@@ -29,8 +27,6 @@ We applied:
 
 Both criteria suggested **3 clusters** as the optimal segmentation.
 
----
-
 ## 📊 Results
 
 The K-Means model grouped customers into **three distinct segments**:
@@ -40,8 +36,6 @@ The K-Means model grouped customers into **three distinct segments**:
 | **Low-Value (Hesitant)**  | High (long time since last purchase) | Low | Low | Younger, lower income, infrequent buyers | Onboarding flows, educational nudges, entry-level offers |
 | **High-Value (At-Risk)**  | High (inactive recently) | High | High | Educated, previously loyal, strong spenders but slipping | Win-back campaigns, personalized recommendations, exclusive offers |
 | **Engaged (VIP)**         | Low (recent purchases) | High | High | Loyal, consistent buyers, small families, higher income | Loyalty programs, premium support, early access rewards |
-
----
 
 ## 🚀 Business Impact
 - **Engaged (VIPs):** Though smaller in number, these are the **most profitable customers**. Retention programs should prioritize them.  
@@ -53,19 +47,12 @@ By tailoring strategies to these segments, companies can:
 ✔️ Increase marketing ROI through targeted campaigns  
 ✔️ Strengthen loyalty among top-tier customers  
 
----
-
 ## 🛠️ Tech Stack
 - **Python**: Data manipulation & modeling  
 - **Pandas / NumPy**: Data wrangling & feature engineering  
 - **Matplotlib / Seaborn**: Visualizations  
 - **Scikit-learn**: K-Means clustering & evaluation  
 
----
-
 ## 📌 Conclusion
 This project demonstrates how **RFM + KMeans** can transform raw transaction data into actionable customer insights.  
 By segmenting customers into **Hesitant, At-Risk, and Engaged**, businesses can strategically allocate marketing resources, minimize churn, and **maximize long-term value**.
-
----
-
