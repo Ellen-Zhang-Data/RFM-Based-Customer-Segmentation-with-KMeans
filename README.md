@@ -27,9 +27,18 @@ We applied:
 
 Both criteria suggested **3 clusters** as the optimal segmentation.
 
-## 📊 Results
+## 📊 Segment Distribution
+| Segment                  | % of Customers |
+|---------------------------|----------------|
+| High-Value / At-Risk      | 49%            |
+| Low-Value / Hesitant      | 38%            |
+| Engaged / VIP             | 12%            |
 
-The K-Means model grouped customers into **three distinct segments**:
+- **High-Value / At-Risk** is the largest group — previously strong buyers but need re-engagement.  
+- **Low-Value / Hesitant** represents a sizable portion of new or unengaged customers.  
+- **Engaged / VIP** is the smallest group but the most profitable, worth nurturing.  
+
+## 📊 Cluster Characteristics
 
 | **Cluster**               | **Recency** | **Frequency** | **Monetary** | **Customer Profile** | **Recommended Strategy** |
 |----------------------------|-------------|---------------|--------------|-----------------------|---------------------------|
@@ -56,3 +65,4 @@ By tailoring strategies to these segments, companies can:
 ## 📌 Conclusion
 This project demonstrates how **RFM + KMeans** can transform raw transaction data into actionable customer insights.  
 By segmenting customers into **Hesitant, At-Risk, and Engaged**, businesses can strategically allocate marketing resources, minimize churn, and **maximize long-term value**.
+
